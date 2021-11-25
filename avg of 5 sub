@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main ()
+{
+    int m,p,c,h,e,total;
+    double avg;
+    printf("enter the marks of 5 subjects:");
+    scanf("%d%d%d%d%d",&m,&p,&c,&h,&e);
+    total=m+p+c+h+e;
+    printf("total marks:%d\n",total);
+    avg=total/5.0;
+    printf("avg marks:%lf",avg);
+   
+    return 0;
+}
+
