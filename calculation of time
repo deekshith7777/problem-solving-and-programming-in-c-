@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int d,s;
+    float t;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    printf("enter the value of s");
+    scanf("%d",&s);
+    t=d/s;
+    printf    ("the value of t:%f",t);
+    return 0;
+}
