@@ -2,7 +2,7 @@
 
 int main ()
 {
-    int m,p,c,h,e,total;
+    int m,p,c,h,e,total,percentage;
     double avg;
     printf("enter the marks of 5 subjects:");
     scanf("%d%d%d%d%d",&m,&p,&c,&h,&e);
@@ -10,7 +10,8 @@ int main ()
     printf("total marks:%d\n",total);
     avg=total/5.0;
     printf("avg marks:%lf",avg);
-   
+   percentage=(total/500)*100;
+   printf("percentage=%d",percentage);
     return 0;
 }
 
