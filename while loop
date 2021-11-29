@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,no;
+    printf("enter no");
+    scanf("%d",&i);
+    while(i<=50)
+    {
+        i;i++;
+        printf("\t %d",i);
+    }
+
+    return 0;
+}
