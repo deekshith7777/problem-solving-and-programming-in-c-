@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,d,e,ch;
+    float f,g;
+    printf("enter your choice");
+    scanf("%d",&ch);
+    a=20;
+    b=40;
+    c=a+b;
+    d=a-b;
+    e=a*b;
+    f=a/b;
+    g=a%b;
+   switch(ch)
+   {
+     case1: 
+     printf(" add of nos is: %d",c);
+     break;
+   
+       case2:
+      printf (" sub of nos is: %d",d);
+      break;
+   
+   
+   
+       case3:
+       printf(" mul of nos is: %d",e);
+       break;
+   
+   
+  
+       case4:
+       printf(" q of nos is :%f",f);
+       break;
+   
+   
+   
+       case5:
+       printf(" r of nos is: %f",g);
+       break;
+   }
+    return 0;
+}
