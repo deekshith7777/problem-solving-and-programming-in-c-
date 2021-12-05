@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+
+ int main() {
+
+    int length;
+    int breadth;
+	int area;
+
+	printf(" Enter the Length of a Rectangle : ");
+	scanf("%d", &length);
+    
+    
+    printf("\n Enter the Breadth of a Rectangle : ");
+	scanf("%d", &breadth);
+	area = length*breadth;
+	printf("\n Area of Rectangle  = %d ",area, length);
+  return 0;
+}
