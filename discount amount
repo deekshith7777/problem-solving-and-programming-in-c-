@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main() 
+{
+
+   float price;
+   float discountpercentage;
+   float discountamount;
+    printf(" Enter Price of Item  : ");
+    scanf("%f", &price);
+    printf("\n Enter DiscountPercentage on Item  : ");
+    scanf("%f", &discountpercentage);
+    discountamount == (discountpercentage*price)/100;
+    printf("\nDiscountamount : %f",& discountamount);
+return 0;
+}
