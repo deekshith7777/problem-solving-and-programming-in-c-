@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+
+    int breadth;
+    int height;
+    float volume of pyramid;
+	printf("\n Enter the Breadth of Pyramid : ");
+	scanf("%d", &breadth);
+    printf("\n Enter the Height of Pyramid : ");
+	scanf("%d", &height);
+    volume of pyramid = (1/3)*breadth*height;
+	printf("\n Volume of Pyramid =%f",volume of Pyramid);
+return 0;
+}
