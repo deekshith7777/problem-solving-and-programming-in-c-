@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+
+    int height;
+    int breadth;
+	long area;
+	printf(" Enter the Length of a Parallelogram : ");
+	scanf("%d", &height);
+    printf("\n Enter the Breadth of a Parallelogram : ");
+	scanf("%d", &breadth);
+	area = height*breadth;
+	printf("\n area of Parallelogram=%ld",area);
+return 0;
+}
