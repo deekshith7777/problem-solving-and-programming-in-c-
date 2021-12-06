@@ -10,6 +10,6 @@ int main()
     printf("\n Enter DiscountPercentage on Item  : ");
     scanf("%f", &discountpercentage);
     discountamount == (discountpercentage*price)/100;
-    printf("\nDiscountamount : %f",& discountamount);
+    printf("\nDiscountamount : %f",discountamount);
 return 0;
 }
