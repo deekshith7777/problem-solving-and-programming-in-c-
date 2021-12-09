@@ -15,29 +15,29 @@ int main()
     g=a%b;
    switch(ch)
    {
-     case1: 
+     case 1: 
      printf(" add of nos is: %d",c);
      break;
    
-       case2:
+       case 2:
       printf (" sub of nos is: %d",d);
       break;
    
    
    
-       case3:
+       case 3:
        printf(" mul of nos is: %d",e);
        break;
    
    
   
-       case4:
+       case 4:
        printf(" q of nos is :%f",f);
        break;
    
    
    
-       case5:
+       case 5:
        printf(" r of nos is: %f",g);
        break;
    }
