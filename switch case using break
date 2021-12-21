@@ -1,0 +1,52 @@
+
+#include <stdio.h>
+int main()
+{
+    int a,b,c,d,e,ch;
+    float f,g;
+    printf("enter your choice");
+    scanf("%d",&ch);
+    a=20;
+    b=40;
+    c=a+b;
+    d=a-b;
+    e=a*b;
+    f=a/b;
+    g=a%b;
+   switch(ch)
+   {
+     addition:
+     case 1: 
+     printf(" add of nos is: %d",c);
+     break;
+   deekshith:
+       case 2:
+      printf (" sub of nos is: %d",d);
+      break;
+   
+   
+   multiplication:
+       case 3:
+       printf(" mul of nos is: %d",e);
+       break;
+   
+   
+  quotient:
+       case 4:
+       printf(" q of nos is :%f",f);
+       break;
+   
+   
+   remainder:
+       case 5:
+       printf(" r of nos is: %f",g);
+       break;
+       
+       case 6:
+       goto deekshith;
+       break;
+       default:
+       printf("enter valid choice");
+   }
+    return 0;
+}
