@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+  int radius;
+  float PI = 3.142;
+  float surface area of sphere;
+	printf(" Program to calculate Surface Area of a Sphere :  ");
+	printf("\n\n Enter the Radius of Sphere : ");
+	scanf("%d", &radius);
+    surface area of sphere = 4*PI*radius*radius;
+	printf("\n\n Surface area of Sphere with side as %d = %lf",radius,surface area of sphere);
