@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{
+    int height;
+    int b1,b2;
+	long area of trapezoid;
+	printf(" Enter the Height of a Trapezoid : ");
+	scanf("%d", &height);
+    printf("\n\n Enter the Breadth1 value : ");
+	scanf("%d", &b1);
+    printf("\n\n Enter the Breadth2 value : ");
+    scanf("%d", &b2);
+	area of trapezoid = (height/2)*(b1+b2);
+	printf("\n\n Area of Trapezoid = %ld",height,b1,b2,area of trapezoid);
