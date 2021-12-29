@@ -8,3 +8,5 @@ int main() {
 	scanf("%d", &radius);
     surface area of sphere = 4*PI*radius*radius;
 	printf("\n\n Surface area of Sphere with side as %d = %lf",radius,surface area of sphere);
+	return 0;
+	}
