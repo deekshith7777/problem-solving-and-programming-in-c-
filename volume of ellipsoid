@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    int r1,r2,r3;
+    float volume_of_ellipsoid;
+    float PI = 3.142;
+	printf("\n\n Enter the Radius 1 of Ellipsoid : ");
+	scanf("%d", &r1);
+
+    printf("\n\n Enter the Radius 2 of Ellipsoid : ");
+	scanf("%d", &r2);
+    
+    printf("\n\n Enter the Radius 3 of Ellipsoid : ");
+	scanf("%d", &r3);
+        
+    volume of ellipsoid = (4/3)*(PI*r1*r2*r3);
+
+	printf("\n\n Volume of Ellipsoid  = %f",volume of elipsoid);
+  return 0;
+  }
